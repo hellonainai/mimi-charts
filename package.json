@@ -1,0 +1,52 @@
+{
+  "name": "@jiangjing94/mimi-charts",
+  "version": "1.1.9",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name mcharts --dest lib packages/index.js",
+    "new": "plop packages",
+    "docs": "vue-cli-service styleguidist",
+    "docs:build": "vue-cli-service styleguidist:build"
+  },
+  "main": "lib/mcharts.umd.min.js",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "lib/mcharts.umd.min.js",
+    "lib/mcharts.css",
+    "lib/fonts",
+    "packages"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "lodash": "^4.17.19",
+    "pug": "^2.0.3",
+    "pug-html-loader": "^1.1.5",
+    "pug-plain-loader": "^1.0.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^1.19.1",
+    "sass": "^1.26.5",
+    "plop": "2.3.0",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-styleguidist": "~4.35.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "license": "MIT"
+}
